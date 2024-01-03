@@ -16,22 +16,22 @@ import io.swagger.v3.oas.models.responses.ApiResponses;
 public class SwaggerConfig {
 
 	@Bean
-    OpenAPI springBlogPessoalOpenAPI() {
+    OpenAPI springBlogPessoalOperAPI() {
         return new OpenAPI()
-            .info(new Info()
-                .title("Projeto Blog Pessoal")
-                .description("Projeto Blog Pessoal - Generation Brasil")
-                .version("v0.0.1")
-                .license(new License()
-                    .name("Douglas Rosolini Correia")
-                    .url("https://github.com/douglasrc8"))
-                .contact(new Contact()
-                    .name("Douglas Rosolini Correia")
-                    .url("https://github.com/douglasrc8")
-                    .email("douglasrc1912@gmail.com")))
-            .externalDocs(new ExternalDocumentation()
-                .description("Github")
-                .url("https://github.com/douglasrc8"));
+                .info(new Info()
+                        .title("Projeto Blog Pessoal")
+                        .description("Projeto Blog Pessoal - Danielle Okuma")
+                        .version("v0.0.1")
+                        .license(new License()
+                                .name("Danielle Maiyumi Okuma")
+                                .url("https://github.com/DaniOkuma"))
+                        .contact(new Contact()
+                                .name("Danielle Maiyumi Okuma")
+                                .url("https://github.com/DaniOkuma")
+                                .email("daniellemokuma@gmail.com")))
+                    .externalDocs(new ExternalDocumentation()
+                            .description("Github")
+                            .url("https://github.com/DaniOkuma"));
     }
 
 
